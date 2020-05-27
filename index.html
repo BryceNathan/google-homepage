@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="styles/style.css">
         <meta charset="utf-8">
         <title>Google</title>
     </head>
     <body>        
         <!-- Middle area with Google logo, search bar, buttons-->
-        <div>
+        <div class="center-page">
             <a href="/">
-                <img src="images/googlelogo_color_272x92dp.png" alt="Google logo">
+                <img id="google-image" src="images/googlelogo_color_272x92dp.png" alt="Google logo">
             </a>
             <br>
-            <input type="search" placeholder="Search..">
+            <input type="search" id="search" placeholder="Search..">
             <br>
-            <button type="button">Search</button>
-            <button type="button">I'm Feeling Lucky</button>
+            <button type="button" id="buttons">Search</button>
+            <button type="button" id="buttons">I'm Feeling Lucky</button>
         </div>
         <!-- Bottom footer with security info, copyright, etc-->
         <footer>
-            <div>
+            <div class="footer">
+                <div id="footer-left">
                 <a href="/">Advertising</a>
                 <a href="/">Business</a>
                 <a href="/">How Search Works</a>
-
+            </div>
+                <div id="footer-right">
                 <a href="/">Privacy</a>
                 <a href="/">Terms</a> 
                 <a href="/">Settings</a>
-
+            </div>
             </div>
         </footer>
     </body>
